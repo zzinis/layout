@@ -177,6 +177,55 @@ $primary-color: #4caf50;
 		}
 	}
 }
+section.products {
+	h1 {
+		text-align: center;
+		margin-top: 70px;
+	}
+	.wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; /* 가운데 정렬을 위해 추가 */
+		align-items: center; /* 수직 가운데 정렬을 위해 추가 */
+		margin: 20px;
+
+		.product {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 10px;
+			width: 300px;
+			margin-bottom: 20px;
+			margin-right: 20px;
+
+			img {
+				width: 100%;
+				border-radius: 5px;
+			}
+
+			h2 {
+				margin: 10px 0;
+			}
+
+			p {
+				color: #777;
+			}
+
+			button {
+				background-color: $primary-color;
+				border: none;
+				color: white;
+				padding: 10px 20px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				border-radius: 5px;
+				cursor: pointer;
+				margin-top: 10px;
+			}
+		}
+	}
+}
 
 /* 푸터 스타일 */
 #footer {

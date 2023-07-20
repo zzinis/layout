@@ -163,6 +163,49 @@ ol {
   font-weight: bold;
 }
 
+section.products h1 {
+  text-align: center;
+  margin-top: 70px;
+}
+section.products .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 가운데 정렬을 위해 추가 */
+  align-items: center; /* 수직 가운데 정렬을 위해 추가 */
+  margin: 20px;
+}
+section.products .wrap .product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+section.products .wrap .product img {
+  width: 100%;
+  border-radius: 5px;
+}
+section.products .wrap .product h2 {
+  margin: 10px 0;
+}
+section.products .wrap .product p {
+  color: #777;
+}
+section.products .wrap .product button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 /* 푸터 스타일 */
 #footer {
   background-color: #333;
